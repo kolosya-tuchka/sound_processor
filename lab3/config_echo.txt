@@ -1,0 +1,6 @@
+#request
+#./sound_processor "music/Alarm04.wav" -c "config_echo.txt" -o "music/output_echo_test.wav"
+
+#concate $5
+#help
+echo 60 6 0.5 0.8 120

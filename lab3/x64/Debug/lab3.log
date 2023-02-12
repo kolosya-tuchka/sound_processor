@@ -1,0 +1,46 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  command_help.cpp
+  concate.cpp
+  concate_flag_backwards.cpp
+  copy_audio.cpp
+  cut_audio.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\cut_audio.cpp(40,15): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\cut_audio.cpp(40,54): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\cut_audio.cpp(42,37): warning C4244: -=: преобразование "float" в "unsigned int", возможна потеря данных
+  echo.cpp
+  file_reader.cpp
+  init_sound_processor.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\init_sound_processor.cpp(16,31): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  lab3.cpp
+  load_config.cpp
+  mix.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\mix.cpp(88,16): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  mix_flag_concate.cpp
+  mix_flag_safe.cpp
+  mute.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\mute.cpp(47,15): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\mute.cpp(47,54): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+  set_output_file.cpp
+  sound_header.cpp
+  sound_processor.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\sound_processor.cpp(104,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  sound_processor_exception.cpp
+  soundp_command_argument_exception.cpp
+  soundp_command_exception.cpp
+  Создание кода...
+  Компиляция...
+  soundp_file_exception.cpp
+  string_util.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\string_util.cpp(42,33): warning C4101: exception: неиспользованная локальная переменная
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\string_util.cpp(52,33): warning C4101: exception: неиспользованная локальная переменная
+  volume_audio.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\volume_audio.cpp(31,31): warning C4305: инициализация: усечение из "int" в "float"
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\volume_audio.cpp(52,21): warning C4244: инициализация: преобразование "float" в "__int64", возможна потеря данных
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\volume_audio.cpp(52,60): warning C4244: инициализация: преобразование "float" в "__int64", возможна потеря данных
+  wav_reader.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\wav_reader.cpp(97,29): warning C4244: =: преобразование "std::streamsize" в "int", возможна потеря данных
+  wav_writer.cpp
+C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\wav_writer.cpp(74,38): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  lab3.vcxproj -> C:\Users\akolo\NSU\cppLabs\sound_processor\lab3\sound_processor.exe

@@ -1,0 +1,13 @@
+#request
+#./sound_processor "music/Alarm01.wav" "music/Alarm02.wav" "music/Alarm03.wav" "music/Alarm04.wav" "music/Alarm05.wav" -c "config2.txt" -o "music/output.wav"
+
+mix $2 0 -c -s
+mix $3 0 -c -s
+mix $4 0 -c -s
+mix $5 0 -c -s
+
+concate $1
+mix $2 6 -c -s
+mix $3 6 -c -s
+mix $4 6 -c -s
+mix $5 6 -c -s

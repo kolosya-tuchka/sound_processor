@@ -1,0 +1,29 @@
+#request
+#./sound_processor "music/Alarm01.wav" "music/Alarm02.wav" "music/Alarm03.wav" "music/Alarm04.wav" "music/Alarm05.wav" -c "config.txt" -o "music/output.wav"
+
+#help
+#mute 0.5 1.3
+#mix $2 0 -c -s
+#volume 0.1 2 3
+concate $3
+concate $2
+concate $3
+concate $2
+#что-то зловещее
+
+concate $1
+concate $1
+#concate $4 -b
+#concate $5 -b
+
+#mix $4 5 -s
+#mix $5 10 -s
+#mix $3 5 -s
+
+#много пустых строк
+
+#mute 3 8
+
+#cut 4.5 5.5
+
+volume 50
